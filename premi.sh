@@ -630,6 +630,15 @@ chmod +x /etc/default/dropbear
 print_success "Dropbear"
 }
 
+function ins_udpSSH(){
+clear
+print_install "Menginstall Udp-custom"
+wget -q https://raw.githubusercontent.com/frosi4524/alpha.v2/refs/heads/main/udp-custom/udp-custom.sh
+chmod +x udp-custom.sh 
+bash udp-custom.sh
+rm -fr udp-custom.sh
+print_success "Udp-custom"
+
 clear
 function ins_vnstat(){
 clear
