@@ -155,7 +155,7 @@ r="\033[1;31m"  #REDTERANG
 a=" ${z}ACCOUNT PREMIUM" 
 echo -e " "
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│$NC\033[96m           Rosi Center Store Tunneling                  $NC${z}│$NC"
+echo -e " ${z}│$NC\033[96m               Rosi Center Store Tunneling                  $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC$r • $NC${z} System OS ${NC}     ${z}=$NC $MODEL${NC}"
